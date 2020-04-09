@@ -1,0 +1,26 @@
+.container {
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+    margin-left: 10%;
+}
+h1 {
+    margin-left: 10%;
+}
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh {
+   border: 1px solid black;
+   display: table-row;
+}
+.first {
+    border-top: none;
+}
+.seventh {
+    border-bottom: none;
+}
+p {
+    padding: 10px;
+}
+.first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover, .seventh:hover {
+    background-color: chocolate;
+}
